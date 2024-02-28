@@ -1,0 +1,64 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{array}
+\usepackage{pgf}
+\usepackage{lmodern}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11024 - G.Karthik Yadav$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+\section*{GATE 2023 EC 41}
+\noindent 1. \hspace{2pt} A Closed loop systen is shown in the figure where $k>0$ and $\alpha>0$ .\\
+The Steady State error due to a ramp input $\brak{R\brak{s} = \alpha s^{-2}}$ is given by \hfill{(GATE 2023 EC 41)}
+
+\begin{figure}[ht]
+\centering
+    \includegraphics[width=1.2\linewidth]{figs/question.png}
+    \label{fig: 23.EC.41.24}
+\end{figure}
+
+\begin{enumerate}
+\item $\frac{2\alpha}{k}$
+\item $\frac{\alpha}{k}$
+\item $\frac{\alpha}{2k}$
+\item $\frac{\alpha}{4k}$
+\end{enumerate}
+
+\solution
+
+\input{tables/table}
+from table \ref{tab:2023.EC.41.T1}
+The Steady State error is\\
+\begin{align}
+	e_s &= \frac{\alpha}{K_v} \label{24.2023.EC.41.2} \\
+ G\brak{s} &= \frac{k}{s\brak{s+2}} 
+\end{align}
+From the figure \ref{fig: 23.EC.41.24}\\
+\begin{align}
+        K_v &= \displaystyle\lim_{s\to 0}s G\brak{s}\\
+	 &= \displaystyle\lim_{s\to 0}s \frac{k}{s\brak{s+2}} \\
+	 K_v &= \frac{k}{2}
+\end{align}
+
+from eq \eqref{24.2023.EC.41.2} 
+
+\begin{align}
+	e_s = \frac{2\alpha}{k}
+\end{align}
+
+
+\end{document}
