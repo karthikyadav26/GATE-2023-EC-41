@@ -1,6 +1,6 @@
 \setlength{\arrayrulewidth}{0.2mm}
-\setlength{\tabcolsep}{15pt}
-\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
 
 
 \begin{table}[ht]
@@ -9,13 +9,15 @@
     \hline
     	Symbol & Parameters & value\\
     \hline
-	  $R\brak{s}$ & Ramp input signal  &  $\alpha s^{-2}$\\
+	  $R\brak{s}$ & Laplace transform Ramp input signal r\brak{t} &  $\alpha s^{-2}$\\
     \hline
-	  $G\brak{s}$ & Open Loop transfer function &  $\frac{k}{s\brak{s+2}}$\\
+	  $G\brak{s}$ & Open Loop transfer function &  $ \frac{Y\brak{s}}{E\brak{s}} = \frac{k}{s\brak{s+2}}$\\
+   \hline
+         $Y\brak{s}$ & Laplace transform of the output signal y\brak{t}  &  ? \\
+    \hline
+         $E\brak{s}$ & Laplace transform of the error signal e\brak{t} & R\brak{s} - Y\brak{s}\\     
     \hline
          $e_s$ & Steady State Error &  ? \\
-    \hline
-         $K_v$ & velocity constant &  ? \\
     \hline
   \end{tabular}
   \vspace{0.3cm}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.9)  28 FEB 2024 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.9)  1 MAR 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,19 +1014,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: figs/question.png Graphic file (type png)
 <use figs/question.png>
 Package pdftex.def Info: figs/question.png  used on input line 30.
-(pdftex.def)             Requested size: 302.39923pt x 84.61798pt.
-
-Overfull \hbox (50.39923pt too wide) in paragraph at lines 30--32
- [][] 
- []
-
-(./tables/table.tex
+(pdftex.def)             Requested size: 252.0pt x 70.51595pt.
+ (./tables/table.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 8.
 
-Overfull \hbox (10.86107pt too wide) in paragraph at lines 8--22
+Overfull \hbox (70.14088pt too wide) in paragraph at lines 8--24
  [][] 
  []
 
@@ -1035,39 +1030,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
+<figs/gate.png, id=6, 462.528pt x 346.896pt>
+File: figs/gate.png Graphic file (type png)
+<use figs/gate.png>
+Package pdftex.def Info: figs/gate.png  used on input line 77.
+(pdftex.def)             Requested size: 239.39923pt x 179.55063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 72--81
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figs/question.png>]
-(./main.aux) ) 
+ <./figs/question.png> <./figs/gate.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 21220 strings out of 478287
- 448913 string characters out of 5849290
- 701314 words of memory out of 5000000
- 38916 multiletter control sequences out of 15000+600000
+ 21232 strings out of 478287
+ 449120 string characters out of 5849290
+ 710353 words of memory out of 5000000
+ 38927 multiletter control sequences out of 15000+600000
  650920 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  117i,11n,120p,408b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/te
-xmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy
-.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/t
-ype1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (1 page, 185199 bytes).
+{/usr/share/texmf/fonts
+/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (1 page, 213493 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
